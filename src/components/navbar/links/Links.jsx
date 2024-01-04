@@ -33,7 +33,7 @@ const Links = ({session}) => {
   // const session = true;
   // const isAdmin = true;
 
-  //
+  // map the array of navbar
   return (
     <div className={styles.container}>
       <div className={styles.links}>
