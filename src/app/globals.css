@@ -1,5 +1,5 @@
 /* common styles */
-:root {
+:root { /*make parent css*/
     --bg: #0d0c22;
     --bgSoft: #2d2b42;
     --text: white;
