@@ -29,14 +29,11 @@ const links = [
 const Links = ({session}) => {
   const [open, setOpen] = useState(false);
 
-  // TEMPORARY
-  // const session = true;
-  // const isAdmin = true;
-
   // map the array of navbar
   return (
     <div className={styles.container}>
       <div className={styles.links}>
+
         {links.map((link) => (
           <NavLink item={link} key={link.title} />
         ))}
@@ -51,6 +48,7 @@ const Links = ({session}) => {
           <NavLink item={{ title: "Login", path: "/login" }} />
         )}
       </div>
+      
       <Image
         className={styles.menuButton}
         src="/menu.png"
