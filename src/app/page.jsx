@@ -14,6 +14,8 @@ const Home = () => {
           <button className={styles.button}>Learn More</button>
           <button className={styles.button}>Contact</button>
         </div>
+        
+        {/* added gif and images */}
         <div className={styles.brands}>
           <Image src="/brands.png" alt="" fill className={styles.brandImg}/>
         </div>
