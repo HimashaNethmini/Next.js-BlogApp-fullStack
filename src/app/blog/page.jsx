@@ -21,6 +21,7 @@ const BlogPage = async () => {
   // FETCH DATA WITHOUT AN API
   // const posts = await getPosts();
 
+  //map the postcards
   return (
     <div className={styles.container}>
       {posts.map((post) => (
