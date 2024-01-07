@@ -4,7 +4,7 @@
     gap: 20px;
   }
   
-  .post {
+  .post { /* display 3 posts per row*/
     width: 30%;
   }
   
