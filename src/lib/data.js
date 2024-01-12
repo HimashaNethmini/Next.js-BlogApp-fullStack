@@ -15,6 +15,7 @@ import { unstable_noStore as noStore } from "next/cache";
 //   { id: 4, title: "Post 4", body: "......", userId: 2 },
 // ];
 
+//get post request
 export const getPosts = async () => {
   try {
     connectToDb();
