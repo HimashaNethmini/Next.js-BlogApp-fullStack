@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
 
+//created user attributes for DB
 const userSchema = new mongoose.Schema(
   {
     username: {
@@ -29,6 +30,7 @@ const userSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
+//created post attributes for DB
 const postSchema = new mongoose.Schema(
   {
     title: {
