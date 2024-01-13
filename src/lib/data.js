@@ -25,7 +25,7 @@ export const getPost = async (slug) => {
   }
 };
 
-//get user
+//get a specific user
 export const getUser = async (id) => {
   noStore();
   try {
@@ -38,6 +38,7 @@ export const getUser = async (id) => {
   }
 };
 
+//get all users
 export const getUsers = async () => {
   try {
     connectToDb();
