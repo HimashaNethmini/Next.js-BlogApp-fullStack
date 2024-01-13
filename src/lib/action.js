@@ -11,6 +11,7 @@ export const addPost = async (prevState,formData) => {
   // const desc = formData.get("desc");
   // const slug = formData.get("slug");
 
+  //create new post
   const { title, desc, slug, userId } = Object.fromEntries(formData);
 
   try {
