@@ -21,6 +21,7 @@ const PostUser = async ({ userId }) => {
   const user = await getUser(userId);
 
   return (
+    //user image
     <div className={styles.container}>
       <Image
         className={styles.avatar}

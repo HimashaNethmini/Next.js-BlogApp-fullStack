@@ -27,7 +27,7 @@ export const getPost = async (slug) => {
 
 //get a specific user
 export const getUser = async (id) => {
-  noStore();
+  noStore();  // next js nostore function for caching
   try {
     connectToDb();
     const user = await User.findById(id);
