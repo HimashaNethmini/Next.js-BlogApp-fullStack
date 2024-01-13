@@ -7,6 +7,7 @@ const ServerActionTestPage = () => {
   //   console.log("it works!")
   // }
 
+  //create post function
   return (
     <div>
       <form action={addPost}>
