@@ -5,20 +5,26 @@ import Footer from "@/components/footer/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
+//doing seo for always using pages - creating a template
 export const metadata = {
-  title: "blog app",
-  description: "Blog app by nextjs",
+  title: {
+    default: "Next.js 14 Homepage",
+    template: "%s | Next.js 14",
+  },
+  description: "Next.js starter app description",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
+        {/* <ClientSideProviderTest> */}
         <div className="container">
           <Navbar />
           {children}
           <Footer />
         </div>
+        {/* </ClientSideProviderTest> */}
       </body>
     </html>
   );
