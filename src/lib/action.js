@@ -50,6 +50,7 @@ export const deletePost = async (formData) => {
   }
 };
 
+//create new user
 export const addUser = async (prevState,formData) => {
   const { username, email, password, img } = Object.fromEntries(formData);
 
