@@ -7,7 +7,7 @@ const ServerActionTestPage = () => {
   //   console.log("it works!")
   // }
 
-  //create post function
+  //create form of adding post - frontend
   return (
     <div>
       <form action={addPost}>
@@ -18,6 +18,7 @@ const ServerActionTestPage = () => {
         <button>Create</button>
       </form>
 
+  {/* delete function - frontend*/}
       <form action={deletePost}>
         <input type="text" placeholder="postId" name="id" />
         <button>Delete</button>
