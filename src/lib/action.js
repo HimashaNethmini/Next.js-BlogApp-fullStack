@@ -33,6 +33,7 @@ export const addPost = async (prevState,formData) => {
   }
 };
 
+//delete post
 export const deletePost = async (formData) => {
   const { id } = Object.fromEntries(formData);
 
