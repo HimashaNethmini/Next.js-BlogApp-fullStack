@@ -72,6 +72,7 @@ export const addUser = async (prevState,formData) => {
   }
 };
 
+//delete user
 export const deleteUser = async (formData) => {
   const { id } = Object.fromEntries(formData);
 
